@@ -34,13 +34,13 @@ Follow these steps to get GrooveFM up and running on your local machine:
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/groovefm.git
+    git clone https://github.com/DarkTwentyFive/GrooveFM.git
     ```
 
 2. **Navigate to the Directory**
 
     ```bash
-    cd groovefm
+    cd GrooveFM
     ```
 
 3. **Install Dependencies**
