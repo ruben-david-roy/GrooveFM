@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrooveFM</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    async function playAudio() {
+      const loadingMessage = document.getElementById('loadingMessage');
+      loadingMessage.style.display = 'block';
+
+      const response = await fetch('/timestamp');
+      const timestamp = await response.text();
+      const audioElement = document.getElementById('audioElement');
+      audioElement.currentTime = parseFloat(timestamp);
+      audioElement.play();
+
+      // Send a request to start the counter
+      fetch('/start-counter', { method: 'POST' });
+    }
+
+    function onAudioEnded() {
+      playAudio();
+    }
+
+    function onAudioPlaying() {
+      const loadingMessage = document.getElementById('loadingMessage');
+      loadingMessage.style.display = 'none';
+    }
+  </script>
+</head>
+<body>
+  <h1 id="title">GrooveFM</h1>
+  <button onclick="playAudio()">Listen</button>
+  <p id="loadingMessage">Connecting to servers...</p>
+  <audio id="audioElement" src="/audio" preload="none" onended="onAudioEnded()" onplaying="onAudioPlaying()">
+  </audio>
+</body>
+</html>
