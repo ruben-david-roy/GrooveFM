@@ -1,6 +1,6 @@
 # GrooveFM 🎵
 
-GrooveFM is a simple yet elegant online radio station powered by Node.js and Express. Tune in to enjoy seamless music playback, synchronized across all connected clients.
+GrooveFM is a simple online radio station powered by Node.js and Express. Tune in to enjoy seamless music playback, synchronized across all connected clients.
 
 ![GrooveFM Screenshot](img/screenshot.png)
 
