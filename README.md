@@ -80,13 +80,6 @@ Follow these steps to get GrooveFM up and running on your local machine:
 
 Click the "Listen" button to start playing the audio. The audio stream will be synchronized for all connected clients.
 
-## API Endpoints
-
-- `GET /`: Serve the main HTML page.
-- `POST /start-counter`: Start the internal timestamp counter.
-- `GET /timestamp`: Retrieve the current timestamp.
-- `GET /audio`: Serve the audio file.
-
 ## License
 
 GrooveFM is open-source and is under the MIT License. See [LICENSE](LICENSE) for more information.
