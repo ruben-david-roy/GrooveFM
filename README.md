@@ -9,8 +9,6 @@ GrooveFM is a simple online radio station created with Node.js and the Express w
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Setup](#setup)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [License](#license)
 
 ## Features
@@ -75,10 +73,6 @@ Follow these steps to get GrooveFM up and running on your local machine:
     ```
 
 6. Open your browser and navigate to `http://localhost:3000` to start listening!
-
-## Usage
-
-Click the "Listen" button to start playing the audio. The audio stream will be synchronized for all connected clients.
 
 ## License
 
