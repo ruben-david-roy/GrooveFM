@@ -76,7 +76,7 @@ Follow these steps to get GrooveFM up and running on your local machine:
 
 ## License
 
-GrooveFM is open-source and is under the MIT License. See [LICENSE](LICENSE) for more information.
+GrooveFM is open-source and is under the MIT License. See the [LICENSE](LICENSE) for more information.
 
 ---
 Happy Listening with GrooveFM 🎶
