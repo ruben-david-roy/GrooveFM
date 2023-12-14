@@ -69,7 +69,7 @@ Follow these steps to get GrooveFM up and running on your local machine:
 5. **Run the Server**
 
     ```bash
-    npm start
+    npm run start
     ```
 
 6. Open your browser and navigate to `http://localhost:3000` to start listening!
